@@ -3,6 +3,7 @@ import BasePage from './BasePage'
 class LoginPage extends BasePage {
 	visit() {
 		cy.visit('/login')
+		cy.url().should('include', '/login')
 	}
 
 	loginButtonIsVisible() {
