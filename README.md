@@ -15,7 +15,7 @@ First of all you need to have [NodeJS](https://nodejs.org/es/), [Chrome](https:/
 Clone the repository project:
 
 ```
-git clone https://github.com/JrVillabona/login-Facebook-bdd.git
+git clone https://github.com/JrVillabona/login-facebook-bdd.git
 cd login-Facebook-bdd
 ```
 
