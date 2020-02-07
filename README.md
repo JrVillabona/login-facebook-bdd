@@ -27,13 +27,13 @@ npm install
 
 ## Execution
 
-In order to execute the tests, you just need to execute the following command:
+In order to execute the tests with Cucumber, you just need to execute the following command:
 
 ```
 npm run test
 ```
 
-Or with the Cypress console and execute the tests:
+Or with the Cypress console and execute the tests selecting the web browser that you prefer:
 
 ```
 npm run cypress:open
@@ -47,9 +47,9 @@ npm run cypress:run
 
 ## Generals
 
-- In the folder `cypress/integration/Login` are files who define steps for the Signin feature.
+- In the folder `cypress/integration/Login` are files who define steps for the Login feature.
 - In file `cypress.json` there are config vars.
-- In file `cypress/integration/page-objects` there are page of project.
+- In file `cypress/integration/page-objects` there are page of the project.
 - The files `.feature` there are in folder `integration` and uses descriptive names.
 
 ## Documentation
