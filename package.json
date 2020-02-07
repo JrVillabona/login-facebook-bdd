@@ -12,10 +12,12 @@
   "author": "Julian Villabona",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^3.8.3",
     "cypress-cucumber-preprocessor": "^2.0.1"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "cypress": "^4.0.0"
   }
 }
